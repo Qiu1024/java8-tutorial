@@ -26,6 +26,6 @@ public class AbstractBaseTest implements BaseTest {
     @After
     @Override
     public void afterDone() {
-        System.out.println(getClass() + ", afterDone executed! ");
+        System.out.println(getClass() + ", afterDone executed! \n\n");
     }
 }
